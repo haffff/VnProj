@@ -35,6 +35,7 @@ label start2:
     menu w11:
         "w11/TODO: 02de versions"
         "Podejdź":
+            $hikariPoints += 2                                                                                                                                                   #Hikari +2
             $ w11 = 1
             "Ale czemu nie? Strzelając ‘przepraszam’ jak z karabinu przeciskam się przez ludzi."
             "Pociąg jedzie spokojnym,  jednostajnym tempem,  więc nie jest nawet tak źle."
@@ -91,8 +92,9 @@ label start2:
     menu w12:
         
         "w12"
-        "Pomóż dziewczynie":
-            $ w12 = 1
+        "Pomóż dziewczynie": ########## ########### ########## ####################### TODO Dodać punkty za tą dziewczyne
+            $ w12 = 1 
+            
             "To było naprawdę zbyt bolesny widok."
             "Poczułem,  że trzeba coś z tym zrobić,  jednak jakoś tak bardziej subtelnie."
             "Jakkolwiek upośledzony społecznie mogłem być,  pomysł zrobienia sceny przed całą kolejką nie wydawał się dobry."

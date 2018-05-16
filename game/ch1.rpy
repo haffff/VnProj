@@ -2,6 +2,8 @@
 # file, define a label and jump to it from another file.
 
 label start:
+    jump defmechanika
+label returnmechanika:
     scene black
     "To nie tak, że nie chciało mi się iść do szkoły; problem był ze wstawaniem"
     scene bcgmeme with dissolve
@@ -27,7 +29,8 @@ label start:
     menu:
             
             
-            "Zainteresuj się dziewczyną":
+            "Zainteresuj się dziewczyną": 
+                $ sekaiPoints = sekaiPoints + 1                                                                                                                         ###### SEKAI +1
                 $ w01 = 1
                 show sekaiegslide with Dissolve(2.0)
                 pause 3.0
@@ -118,8 +121,9 @@ label start:
     
     menu:
         
-            "0.2a - Dziwna odpowiedź":
+            "0.2a - Dziwna odpowiedź":                                                                                                                                  #HIKARI +1
                 $ w02 = 1
+                $hikariPoints += 1
                 "Autyzm,  autyzm,  autyzm! Nie chciałem tego powiedzieć...! Nie chcialem,  prawda?"
                 h "Ej,  to był mój pomysł,  żeby mówić dziwne rzeczy na pierwszym dniu."
                 h " Ale wiesz,  to nie działa. Spędzimy tutaj przecież trzy lata z tymi ludźmi,  chyba nie chcesz zrobić z siebie klauna klasowego,  nie?"
@@ -128,8 +132,9 @@ label start:
                 "Nauczyciel wchodzi do sali"
                 h "Pogadamy później."
             
-            "0.2b - Przyjazna 1":
+            "0.2b - Przyjazna 1":                                                                                                                                       #HIKARI +2
                 $ w02 = 2
+                $hikariPoints += 2
                 "Nic nad wymiar autystycznego. Dobrze."
                 h "Miło poznać! Jak tutaj wylądowałeś?"
                 g "Tak na prawdę to nie wiem,  to nie jest tak,  że ta szkoła jest jakaś specjalna;"
@@ -138,8 +143,9 @@ label start:
                 "Nauczyciel wchodzi do sali"
                 h "Pogadamy później"
             
-            "0.2c - Przyjazna 2":
+            "0.2c - Przyjazna 2":                                                                                                                                       #HIKARI +4
                 $ w02 = 3
+                $hikariPoints += 4
                 "To ja chcę tą loszkę,  czy nie?"
                 h "Oh,  właśnie miałam cię zapytać o to samo."
                 h "Wydaje mi się,  że to jest takie fajne liceum,  gdzie nauczysz się czegoś,  ale wciąż masz czas na życie społeczne…"
@@ -166,8 +172,9 @@ label start:
                 "Ale to było upośledzone."
                 "Wchodzi nauczyciel"
         
-            "0.2e - Zignorowanie":
+            "0.2e - Zignorowanie":                                                                                                                                       #HIKARI -1
                 $ w02 = 5
+                $hikariPoints -= 1
                 "Ale,  co ty tak w ogóle robisz?"
                 "Tak przed twarz mi wyskakujesz bez powodu? Nawet swojego monologu nie skończyłem. Eh."
                 h "Ej no,  aż taka odpychająca nie jestem."

@@ -1,17 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-Exception: Could not find return label (u"C:\\Users\\Dankey Hooves\\Dysk Google\\Backup'y Najr\xf3\u017cniejsze_\\Random\\Novelka lol\\edit\\prooototypo/game/ch2.rpy", 1525970158, 0).
+  File "game/ch1.rpy", line 33, in script
+    $ sekaiPoints = sekaiPoints + 1
+  File "game/ch1.rpy", line 33, in <module>
+    $ sekaiPoints = sekaiPoints + 1
+NameError: name 'sekaiPoints' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "lib/windows-i686/00start.rpyc", line 107, in script
-  File "C:\Users\Dankey Hooves\Documents\novelka lol\3\renpy-6.99.12.4-sdk\renpy\ast.py", line 1376, in execute
-    next_node(renpy.game.context().lookup_return(pop=True))
-  File "C:\Users\Dankey Hooves\Documents\novelka lol\3\renpy-6.99.12.4-sdk\renpy\execution.py", line 552, in lookup_return
-    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
-Exception: Could not find return label (u"C:\\Users\\Dankey Hooves\\Dysk Google\\Backup'y Najr\xf3\u017cniejsze_\\Random\\Novelka lol\\edit\\prooototypo/game/ch2.rpy", 1525970158, 0).
+  File "game/ch1.rpy", line 33, in script
+    $ sekaiPoints = sekaiPoints + 1
+  File "F:\Programowanie\VN\renpy-6.99.12.4-sdk\renpy\ast.py", line 814, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "F:\Programowanie\VN\renpy-6.99.12.4-sdk\renpy\python.py", line 1719, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/ch1.rpy", line 33, in <module>
+    $ sekaiPoints = sekaiPoints + 1
+NameError: name 'sekaiPoints' is not defined
 
 Windows-7-6.1.7601-SP1
 Ren'Py 6.99.12.4.2187
