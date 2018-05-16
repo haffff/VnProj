@@ -1,0 +1,27 @@
+#Naming does not make sense, ignore it
+
+	!prooototypo-1.0
+shitty prototype of prototype, short, with little to no ui change
+
+	!Bardzo_Profesjonalna_VNka-0.069
+Still shitty version, with all code in one file.
+- updated ui
+- added fonts
+- updated bcgs most with paint effect
+
+	!Bardzo_Profesjonalna_VNka-0.07
+Day 1 done, seperated .rpy files, polished few things in code
+- all bcgs with paint effect
+- "at" transformations defined
+- updated story with hazel's Sekai
+	!Bardzo_Profesjonalna_VNka-0.071
+- minor improvements to w01 = 1 scene
+
+	!Bardzo_Profesjonalna_VNka-0.071
+- updated window_icon
+- minor ajustments in Ch1
+- updated choice button to not look ugly af
+- updated dialog box (still ugly)
+
+
+

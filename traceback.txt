@@ -1,0 +1,18 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+Exception: Could not find return label (u"C:\\Users\\Dankey Hooves\\Dysk Google\\Backup'y Najr\xf3\u017cniejsze_\\Random\\Novelka lol\\edit\\prooototypo/game/ch2.rpy", 1525970158, 0).
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "lib/windows-i686/00start.rpyc", line 107, in script
+  File "C:\Users\Dankey Hooves\Documents\novelka lol\3\renpy-6.99.12.4-sdk\renpy\ast.py", line 1376, in execute
+    next_node(renpy.game.context().lookup_return(pop=True))
+  File "C:\Users\Dankey Hooves\Documents\novelka lol\3\renpy-6.99.12.4-sdk\renpy\execution.py", line 552, in lookup_return
+    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
+Exception: Could not find return label (u"C:\\Users\\Dankey Hooves\\Dysk Google\\Backup'y Najr\xf3\u017cniejsze_\\Random\\Novelka lol\\edit\\prooototypo/game/ch2.rpy", 1525970158, 0).
+
+Windows-7-6.1.7601-SP1
+Ren'Py 6.99.12.4.2187
+How do i rotate images in ms paint 0.07

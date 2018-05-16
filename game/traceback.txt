@@ -1,0 +1,17 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+Before loading the script.
+WindowsError: [Error 267] Nazwa katalogu jest nieprawidłowa: u'C:\\Users\\Dankey Hooves\\Documents\\novelka lol\\prooototypo\\game\\script.rpy\\*.*'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "E:\Exe\renpy-6.99.12.4-sdk\renpy\bootstrap.py", line 295, in bootstrap
+    renpy.main.main()
+  File "E:\Exe\renpy-6.99.12.4-sdk\renpy\main.py", line 284, in main
+    for fn in os.listdir(dir):
+WindowsError: [Error 267] Nazwa katalogu jest nieprawidłowa: u'C:\\Users\\Dankey Hooves\\Documents\\novelka lol\\prooototypo\\game\\script.rpy\\*.*'
+
+Windows-7-6.1.7601-SP1
+Ren'Py 6.99.12.4.2187
+ 
